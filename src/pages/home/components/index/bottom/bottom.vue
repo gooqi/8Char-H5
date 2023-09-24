@@ -1,7 +1,8 @@
 <template>
-  <view>
+    <view>
+    <!--
     <yx-sheet :round="3" :shadow="2">
-      <template v-for="bitem in friendList">
+       <template v-for="bitem in friendList">
         <text class="yx-text-weight-b u-p-t-10 u-m-b-20 u-font-38">关于项目</text>
         <u-row>
           <u-col v-for="item in bitem" :span="3">
@@ -18,6 +19,7 @@
         </u-row>
       </template>
     </yx-sheet>
+    -->
     <yx-copyright></yx-copyright>
   </view>
 </template>
